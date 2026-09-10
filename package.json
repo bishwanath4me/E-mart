@@ -1,0 +1,27 @@
+{
+  "name": "mern-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node mern-api/src/server.js",
+    "dev": "nodemon --watch mern-api/src --ignore mern-stack/build --ext js,json mern-api/src/server.js",
+    "build": "npm install && npm install --prefix mern-stack && npm run build --prefix mern-stack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.2",
+    "nodemon": "^3.0.1",
+    "razorpay": "^2.9.1"
+  }
+}
+
+

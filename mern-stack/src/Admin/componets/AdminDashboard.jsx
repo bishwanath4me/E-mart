@@ -27,11 +27,11 @@ const AdminDashboard = () => {
             <OrdersTableView />
           </div>
         </Grid>
-        <Grid item xs={12} md={6}>
+        {/* <Grid item xs={12} md={6}>
           <div className="shadow-lg shadow-gray-600">
             <ProductsTableView />
           </div>
-        </Grid>
+        </Grid> */}
       </Grid>
     </div>
   );

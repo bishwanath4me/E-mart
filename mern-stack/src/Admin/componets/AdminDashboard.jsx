@@ -26,6 +26,15 @@ const AdminDashboard = () => {
           <div className="shadow-lg shadow-gray-600">
             <OrdersTableView />
           </div>
+     
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <div className="shadow-lg shadow-gray-600">
+            <ProductsTableView />
+          </div>
+          <div className="shadow-lg shadow-gray-600">
+            <ProductsTableView />
+          </div>
         </Grid>
         {/* <Grid item xs={12} md={6}>
           <div className="shadow-lg shadow-gray-600">

@@ -29,7 +29,7 @@ const AdminDashboard = () => {
         </Grid>
         {/* <Grid item xs={12} md={6}>
           <div className="shadow-lg shadow-gray-600">
-            <ProductsTableView />
+            {/* <ProductsTableView /> */}
           </div>
         </Grid> */}
       </Grid>
